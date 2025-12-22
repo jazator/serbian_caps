@@ -51,11 +51,12 @@
 
 ## Скачать готовый .exe (опционально)
 
-Если не хочешь ставить AutoHotkey, вот [последняя версия в .exe](https://github.com/твой-username/serbian_caps/releases/latest).
+Если не хочешь ставить AutoHotkey, вот [последняя версия в .exe](https://github.com/jazator/serbian_caps/releases/download/v1.0/serbian_caps.exe).
 
 ## Лицензия
 
 MIT License — делай что хочешь.
 
 Готово — теперь сербский текст набирается так же легко, как русский или английский!  
+
 Если понравилось — поставь звезду ★

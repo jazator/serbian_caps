@@ -1,4 +1,4 @@
-﻿#Requires AutoHotkey v2.0
+#Requires AutoHotkey v2.0
 
 SerbMode := false
 DoubleTapThreshold := 400
@@ -53,11 +53,11 @@ IsEnglishLayout() {
     return layout = 0x0409 || layout = 0x0809
 }
 
-; Й → j / J (только в русской раскладке)
+; Й → ј / Ј (сербская кириллица!)
 $*q:: {
     if !SerbMode || HasModifierKeys() || !IsRussianLayout()
         return SendNormalKey("q")
-    SendSerbLetter("j", "J")
+    SendSerbLetter("ј", "Ј")
 }
 
 ; Л → љ / Љ (двойное нажатие)
